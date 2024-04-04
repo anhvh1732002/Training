@@ -29,7 +29,7 @@ public class StringBuilderBuffer {
 //        System.out.println(stringBuffer);
 
         //String Buffer in multi-thread
-        //Use StringBuilder in multi-thread => Unexpected result 
+        //Use StringBuilder in multi-thread => Unexpected result
         StringBuilder sb = new StringBuilder();
 //        StringBuffer sb = new StringBuffer();
         Thread thread1 = new Thread(() -> {
